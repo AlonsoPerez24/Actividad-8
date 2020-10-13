@@ -1,6 +1,7 @@
-#include <Computadora.h>
-Computadora::Computadora(){};
-Computadora::Computadora(int ram, int almacenamiento, std::string sistemaOperativo, std::string usuario){
+#include "Computadora.h"
+
+Computadora(int ram, int almacenamiento, std::string sistemaOperativo, std::string usuario){
+Computadora();
     this->ram=ram;
     this->almacenamiento=almacenamiento;
     this->sistemaOperativo=sistemaOperativo;

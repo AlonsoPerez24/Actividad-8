@@ -1,4 +1,4 @@
-#include <Laboratorio.h>
+#include "Laboratorio.h"
 
 Laboratorio::Laboratorio(){
     cont=0;

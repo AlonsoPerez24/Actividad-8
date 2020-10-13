@@ -1,14 +1,15 @@
 #ifndef COMPUTADORA_H
 #define COMPUTADORA_H
 #include <iostream>
+
 class Computadora{
     int ram;
     int almacenamiento;
     std::string sistemaOperativo;
     std::string usuario;
 public:
-    Computadora::Computadora();
-    Computadora::Computadora(int ram, int almacenamiento, std::string sistemaOperativo, std::string usuario);
+    Computadora();
+    Computadora(int ram, int almacenamiento, std::string sistemaOperativo, std::string usuario);
     int getRam();
     int getAlmacenamiento();
     std::string getSistemaOperativo();
