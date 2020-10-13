@@ -5,7 +5,7 @@ Laboratorio::Laboratorio(){
 };
 
 void Laboratorio::agregarFinal(const Computadora &p){
-    if(cont<5){
+    if(cont<10){
         equipo[cont] = p;
         cont++;
     }else{

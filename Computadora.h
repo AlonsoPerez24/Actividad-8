@@ -20,4 +20,5 @@ public:
     void setSistemaOperativo(std::string sistemaOperativo);
     void setUsuario(std::string usuario);
 };
+
 #endif

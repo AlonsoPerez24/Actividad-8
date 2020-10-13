@@ -1,12 +1,13 @@
 #include "Computadora.h"
 
 Computadora(int ram, int almacenamiento, std::string sistemaOperativo, std::string usuario){
-Computadora();
     this->ram=ram;
     this->almacenamiento=almacenamiento;
     this->sistemaOperativo=sistemaOperativo;
     this->usuario=usuario;
 };
+
+Computadora();
 
 int Computadora::getRam(){
     return ram;
