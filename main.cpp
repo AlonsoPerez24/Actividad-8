@@ -1,15 +1,7 @@
 #include <iostream>
-#include <Computadora.h>
+#include <Laboratorio.h>
 
 using namespace std;
-
-class Laboratorio{
-    Computadora equipos[5];
-    size_t cont;
-public:
-    void agregarFinal(const Computadora &p);
-    void mostrar();
-};
 
 int main(){
 
